@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/profile_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/navigation_header_image" />
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_circular_border_imageview"
+            android:layout_marginTop="40dp"
+            android:elevation="4dp"
+            android:paddingBottom="24dp">
+
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/drawer_username"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_layout"
+            android:paddingTop ="65dp"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:layout_gravity="center"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3d3d3" />
+            <TableRow
+                android:id="@+id/tableRow111"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:id="@+id/Loc"
+                    android:layout_height="30dp"
+                    android:text="Location"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:background="@drawable/cell_shape_provider"
+                    android:textAlignment="center"
+                    android:layout_column="0"></TextView>
+
+                <RadioGroup
+                    android:id="@+id/location_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1">
+
+                    <RadioButton
+                        android:text="City"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioCity"
+                        android:checked ="true"
+                        />
+                    <RadioButton
+                        android:text="County"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioCounty"
+                        />
+                </RadioGroup>
+                <Spinner
+                    android:id="@+id/location_dropdown"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown"
+                    android:prompt="@string/city_prompt"
+                    android:layout_column="2"
+                    />
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3d3d3" />
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:id="@+id/Spec"
+                    android:text="Specialty"
+                    android:layout_height="30dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:background="@drawable/cell_shape_provider"
+                    android:textAlignment="center"
+                    android:layout_column="0"></TextView>
+                <Spinner
+                    android:id="@+id/spec_dropdown"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown"
+                    android:layout_span="2"
+                    android:layout_column="1"/>
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3d3d3" />
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/subSpec"
+                    android:text="Sub-Specialty"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="30dp"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:background="@drawable/cell_shape_provider"
+                    android:textAlignment="center"
+                    android:layout_column="0"></TextView>
+                <Spinner
+                    android:id="@+id/subSpec_dropdown"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown"
+                    android:layout_span="2"
+                    android:layout_column="1"/>
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3d3d3" />
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/pcName"
+                    android:hint = "Enter Provider or Clinic Name"
+                    android:layout_marginTop="12dp"
+                    android:layout_span="3"
+                    android:layout_column="0"/>
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3d3d3" />
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableLayout1"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id = "@+id/find_provider_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:background="#d3d3d3"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:elevation="8dp"
+                android:textSize ="16dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="0dp"
+                android:text="Search for Provider" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

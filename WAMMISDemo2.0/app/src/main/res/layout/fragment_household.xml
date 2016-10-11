@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/navigation_header_image" />
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_circular_border_imageview"
+            android:layout_marginTop="40dp"
+            android:elevation="4dp"
+            android:paddingBottom="24dp">
+
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/drawer_username"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_layout"
+            android:layout_marginTop="65dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:padding="20dp"
+                android:text="Your Household Members are:" />
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop ="10dp"
+                android:paddingRight ="10dp"
+                android:paddingLeft ="10dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*"
+                android:layout_gravity="center_horizontal"
+                >
+
+
+                <TableRow
+                    android:id="@+id/tableRow111"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/cell_shape_elig_header"
+                    >
+
+                    <TextView
+                        android:id="@+id/TextView041"
+                        android:text="CLIENT ID"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="0"></TextView>
+                    <TextView
+                        android:id="@+id/TextView0411"
+                        android:text="CLIENT NAME"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="1"></TextView>
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:text="RELATIONSHIP"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="2"></TextView>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/cell_shape_elig_content">
+
+                    <TextView
+                        android:id="@+id/TextView0412"
+                        android:text="@string/client_id"
+                        android:textSize="10dp"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="0"></TextView>
+                    <TextView
+                        android:id="@+id/CName1"
+                        android:text="@string/drawer_username"
+                        android:textSize="10dp"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="1"></TextView>
+                    <TextView
+                        android:id="@+id/R1"
+                        android:text="Self"
+                        android:textSize="10dp"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="2">
+
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/cell_shape_elig_content">
+                    <TextView
+                        android:id="@+id/TextView0413"
+                        android:text="@string/dependent_id"
+                        android:textSize="10dp"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="0"></TextView>
+                    <TextView
+                        android:id="@+id/CName2"
+                        android:text="@string/dependent_name"
+                        android:textSize="10dp"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="1"></TextView>
+                    <TextView
+                        android:id="@+id/R2"
+                        android:text="Son"
+                        android:textSize="10dp"
+                        android:typeface="serif"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        android:layout_column="2">
+                    </TextView>
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

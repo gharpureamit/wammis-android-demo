@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\gharpurea\android-sdks\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_ad68ea69b2b9bf859129125261c697e69714c88a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f1ba88cfbc37d6d46f76af789a54f5e50f027eb0">
+        <dex dex="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_139e9a661fba36f90cd5a62ffcbb1c546e22c4e5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_5ba8c7fd8c13dc0f26d40804fe029a3485614e4e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_06c3f17a772800fac64f81b5bfb3cef09591e231\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="368d483c770a6012028eeb9c3b0bdfa8165a5842">
+        <dex dex="C:\Users\gharpurea\AndroidStudioProjects\mobileapp\NavigationDrawer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b5bcfceca7fc1a750c7cfca90b14db381fff23fd\classes.dex" />
+    </item>
+
+</items>

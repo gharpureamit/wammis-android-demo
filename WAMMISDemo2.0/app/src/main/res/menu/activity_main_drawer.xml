@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_pages"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/prof"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_elig"
+            android:icon="@drawable/elig"
+            android:title="Eligibility" />
+        <item
+            android:id="@+id/nav_id"
+            android:icon="@drawable/id_1"
+            android:title="View ID Card" />
+        <item
+            android:id="@+id/nav_new_id"
+            android:icon="@drawable/ic_pages"
+            android:title="Request New Card" />
+        <item
+            android:id="@+id/nav_household"
+            android:icon="@drawable/ic_home"
+            android:title="View Household" />
+        <item
+            android:id="@+id/nav_correspondence"
+            android:icon="@drawable/ic_people"
+            android:title="View Correspondence" />
+        <item
+            android:id="@+id/nav_changeplan"
+            android:icon="@drawable/ic_pages"
+            android:title="Change Plan" />
+        <item
+            android:id="@+id/nav_provider"
+            android:icon="@drawable/ic_whats_hot"
+            android:title="Find a Provider" />
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/faq_icon"
+                android:title="FAQs" />
+            <item
+                android:id="@+id/nav_resources"
+                android:icon="@drawable/info"
+                android:title="Resources" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_phone"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>

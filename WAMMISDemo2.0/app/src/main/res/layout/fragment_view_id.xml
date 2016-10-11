@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/navigation_header_image" />
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_circular_border_imageview"
+            android:layout_marginTop="40dp"
+            android:elevation="4dp"
+            android:paddingBottom="24dp">
+
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/drawer_username"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/service_card"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="45dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_layout"
+            android:orientation="vertical">
+            <TextView
+                android:id = "@+id/id_name"
+                android:paddingTop = "195dp"
+                android:paddingLeft = "80dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/drawer_username"
+                android:typeface="serif"
+                android:textColor="#000"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id = "@+id/id_id"
+                android:paddingTop = "0dp"
+                android:paddingLeft = "80dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:text="@string/client_id"
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:paddingTop = "0dp"
+                android:paddingLeft = "125dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valid_through"
+                android:typeface="sans"
+                android:textColor="#000"
+                android:textSize="10sp"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewBarcode"
+            android:src="@drawable/barcode_card"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="40dp"
+            />
+    </RelativeLayout>
+</ScrollView>

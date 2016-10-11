@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">WAMMIS Mobile Demo</string>
+    <string name="name">Mr. John Doe</string>
+    <string name="prompt_id">ID</string>
+    <string name="prompt_dob">DOB</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_settings">Sign Out</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="date_selected">Date of Birth</string>
+    <string name="error_incorrect_dob">Please re-enter DOB</string>
+    <string name="error_incorrect_id">Please re-enter ID</string>
+    <string name="menu">Menu</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Profile</item>
+        <item >Eligibility</item>
+        <item >View ID Card</item>
+        <item >Request a new card</item>
+        <item >View Household</item>
+        <item >View Correspondence</item>
+        <item >Change Plan</item>
+        <item >Find a Provider</item>
+        <item >FAQs</item>
+        <item >Resources</item>
+        <item >Contact Us</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/prof</item>
+        <item>@drawable/elig</item>
+        <item>@drawable/id_1</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/faq_icon</item>
+        <item>@drawable/info</item>
+        <item>@drawable/ic_phone</item>
+    </array>
+
+    <string name="county_prompt">Select a county</string>
+    <string name="city_prompt">Select a city</string>
+
+    <string-array name="county_arrays">
+        <item>Asotin</item>
+        <item>Benton</item>
+        <item>Chelan</item>
+        <item>Clallam</item>
+        <item>Clark</item>
+        <item>Columbia</item>
+        <item>Cowlitz</item>
+        <item>Duglas</item>
+    </string-array>
+    <string-array name="city_arrays">
+        <item>Aberdeen</item>
+        <item>Acme</item>
+        <item>Addy</item>
+        <item>Adna</item>
+        <item>Ahtanum</item>
+        <item>Airway Heights</item>
+        <item>Albion</item>
+        <item>Algona</item>
+        <item>Allyn</item>
+        <item>Almira</item>
+        <item>Amanda Park</item>
+    </string-array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>
